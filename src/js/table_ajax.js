@@ -18,5 +18,6 @@ function receiveSubmit() {
                 alert("Возникла ошибка: " + data);
             }
         })
+
     }
 }

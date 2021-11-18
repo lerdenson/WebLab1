@@ -1,0 +1,144 @@
+body {
+  margin: auto;
+  background: lightslategrey;
+  color: brown;
+  bottom: 70px;
+}
+
+header {
+  background: darkcyan;
+  font-family: cursive, "Times New Roman";
+  color: white;
+  width: 100%;
+  font-size: 55px;
+  text-align: right;
+}
+
+main .table_section {
+  position: absolute;
+  top: 550px;
+  left: 150px;
+}
+main .table_section #cleaner {
+  position: relative;
+  margin: 20px;
+  left: 350px;
+}
+main .table_section #cleaner input {
+  color: whitesmoke;
+  background: dimgrey;
+  width: 170px;
+  height: 40px;
+}
+main .table_section #table {
+  position: relative;
+  top: 10px;
+  left: 40px;
+  width: 900px;
+  border: 1px solid black;
+}
+main .table_section #table tr:first-of-type {
+  background: cadetblue;
+}
+main .table_section #table td, main .table_section #table th {
+  padding: 3px;
+}
+main .user_input svg {
+  stroke: rgba(175, 175, 175, 0.92);
+  fill: rgba(175, 175, 175, 0.92);
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+main .user_input .form {
+  position: absolute;
+  top: 150px;
+  left: 650px;
+  width: 500px;
+  height: 350px;
+  background: rgba(25, 25, 25, 0.83);
+  border-radius: 15px 15px 15px 15px;
+}
+main .user_input .Y_value {
+  margin: 16px;
+  position: relative;
+  top: 15px;
+  left: 130px;
+}
+main .user_input .Y_value #Y_value {
+  width: 145px;
+}
+main .user_input .X_value {
+  margin: 16px;
+  position: relative;
+  top: 15px;
+  left: 130px;
+}
+main .user_input .X_value #X_value {
+  width: 153px;
+}
+main .user_input .R_value {
+  margin: 16px;
+  position: relative;
+  top: 15px;
+  left: 130px;
+}
+main .user_input .R_value #R_value {
+  width: 153px;
+}
+main .user_input .Error_text {
+  margin: 15px;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: red;
+  font-size: 20px;
+}
+main .user_input .Error_text span {
+  margin: 4px;
+}
+main .user_input .buttons {
+  position: absolute;
+  left: 100px;
+  top: 270px;
+}
+main .user_input .buttons #submit {
+  color: whitesmoke;
+  background: rgba(49, 49, 49, 0.83);
+  width: 150px;
+  height: 30px;
+}
+main .user_input .buttons #reset {
+  color: whitesmoke;
+  background: rgba(49, 49, 49, 0.83);
+  width: 150px;
+  height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    max-height: 50px;
+    font-size: 30px;
+  }
+
+  main .user_input .form {
+    position: relative;
+    left: 150px;
+    top: 400px;
+  }
+  main .table_section {
+    position: relative;
+    top: 450px;
+    left: 10px;
+  }
+  main .table_section #table {
+    width: 700px;
+  }
+  main .table_section #cleaner {
+    left: 275px;
+  }
+}
+
+/*# sourceMappingURL=stile.css.map */
